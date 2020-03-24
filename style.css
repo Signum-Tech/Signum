@@ -135,11 +135,6 @@ html, body {
   justify-content: center;
 }
 
-.row4 a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .row4 a:hover {
   opacity: 0.6;
 }

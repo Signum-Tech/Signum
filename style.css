@@ -95,7 +95,7 @@ html, body {
 }
 
 .row3 {
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -110,11 +110,12 @@ html, body {
 #clickme {
   text-align: center;
   font-weight: bold;
+  font-size: 24px;
 }
 
 
 #video img {
-  width: 200px;
+  width: 150px;
 }
 
 .column3 a {
@@ -123,5 +124,22 @@ html, body {
 }
 
 .column3 a:hover {
+  opacity: 0.6;
+}
+
+
+.row4 {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.row4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.row4 a:hover {
   opacity: 0.6;
 }

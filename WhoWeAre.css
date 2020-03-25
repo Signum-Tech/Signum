@@ -12,14 +12,14 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 15%;
+  width: 17%;
 }
 
 .logo img {
   position: absolute;
   top: 10px;
   left: 10px;
-  width: 15%;
+  width: 17%;
 }
 
 #logo a:hover {
@@ -31,10 +31,11 @@ html, body {
   flex-direction: row;
   justify-content: space-between;
   height: 150px;
-  margin-right: 100px;
+  margin-right: auto;
 }
 
 #login {
+  margin-top: 5px;
   width: 300px;
   background-color: white;
   border-radius: 5px;
@@ -55,6 +56,7 @@ html, body {
 /* don't edit above this*/
 
 .row2 {
+  margin-left: 10px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -94,6 +96,7 @@ html, body {
 .link {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
 }
 
